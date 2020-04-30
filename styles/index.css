@@ -31,9 +31,23 @@ color: #DE1584;
     color: #DE1584;
     text-decoration: none;
 }
+iframe{
+    width: 600px;
+}
+
+.more{
+    margin-left: 3%;
+}
+
+@media (max-width:480px) {
+    iframe{
+        width: auto;
+    }
+}
 
 .producto {
     display: flex;
+    flex-wrap: wrap;
     margin: 50px 0; /*arriba-abajo izquierda-derecha*/
 }
 
